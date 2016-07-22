@@ -1,0 +1,41 @@
+
+Q1) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Ans) Diff managed to reduce two huge files into a mere few lines of output. Not only did it save us the trouble of looking through thousands of lines of code, it also found the exact places where the bug had occurred. Saved a lot of time and effort by making everything very concise.
+
+
+Q2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Ans) In many ways.
+a) In case of an error, we could easily revert back to the previous working version
+b) We might have implemented a particular method or used a certain technique, which might have been lost. We can get that back using history of the file.
+
+
+Q3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Ans) Pros:
+a) We have control over when and what to commit. With automatic, things may get saved which are of no use or insignificant in terms of saves.
+b) When looking back in the history, we will be able to relate with the commits much more easily.
+
+Cons:
+a) One might forget to commit at the right time, leading to bulk commits (reduces readibility) or loss of work.
+
+
+Q4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Ans) I guess it depends upon the general pupose of the vcs. Git can be used for committing codes and scripts which might involve multiple files. Google docs on the other hand are usually used as independent docs and don't require multiple files to be saved.
+
+
+Q5) How can you use the commands git log and git diff to view the history of files?
+
+Ans) git log gives a brief history of the repository. It displays a list of all commits till date with their unique id's and a message telling us what has changed. git diff helps us find in detail what exactly has changed between two versions of a repository. It shows us which lines were deleted and which were added by highlighting them.
+
+
+Q6) How might using version control make you more confident to make changes that could break something?
+
+Ans) At any point of time we can revert back to a previously correct working version. Causing a mistake now comes with less penalty, since we can easily revert back. Leaves us free to experiment with the code.
+
+
+Q7) Now that you have your workspace set up, what do you want to try using Git for?
+
+Ans) Intially take it one step at a time, so as to get properly familiar with git. Then start using it with all my projects and codes and maybe even more. 
