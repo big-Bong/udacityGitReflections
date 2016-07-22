@@ -1,0 +1,8 @@
+Q1) What happens when you initialize a repository? Why do you need to do it?
+
+Ans) A new empty repository is created on our computer. In order to track changes and keep our files safe one needs to maintain version control. This is the first step to that.
+
+
+Q2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Ans) It is an intermediate area between working directory and repository. It helps us modularize our commits. Whatever files we want to commit together can be shifter to the staging area using the git add command from whereon it can be shifted to the repository together.
