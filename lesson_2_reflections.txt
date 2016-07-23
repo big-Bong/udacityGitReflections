@@ -6,3 +6,13 @@ Ans) A new empty repository is created on our computer. In order to track change
 Q2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Ans) It is an intermediate area between working directory and repository. It helps us modularize our commits. Whatever files we want to commit together can be shifter to the staging area using the git add command from whereon it can be shifted to the repository together.
+
+
+Q3) How can you use the staging area to make sure you have one commit per logical change?
+
+Ans) The staging area acts like a buffer between working directory and git repo. It contains a copy of the latest commit and is initially identical to the repo. Had the staging area not been present, then we wouldn't have had a choice of what we wanted to commit. Once we tried to commit, we would have needed to commit the whole working directory. Thus, one commit per logical change may not have been possible. With the buffer in the form of staging area, this becomes possible, since we can move just the files we want to the staging area and from there on to our repo without affecting the other files.
+
+
+Q4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Ans) Basically making some changes which we are not sure of whether to implement or not and its effects. Creating a different branch keeps our main branch (code/environment) unaffected and gives us freedom to experiment howsoever we like.
