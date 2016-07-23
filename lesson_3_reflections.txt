@@ -2,3 +2,28 @@ Q1) When would you want to use a remote repository rather than keeping all your 
 
 Ans) We can use for several reasons. Major reason is to share work between users located at various locations. Other reasons
 might include to create safer backups or to showcase our work or to get others to collaborate.
+
+
+Q2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Ans) Auto syncing between Git and remote repositories may cause a lot of inconvenience for the user. It would become difficult to keep track of the changes that the user himself/herself made, incase others are also collaborating on that remote. In case of big projects, this becomes particularly troublesome since a huge number of changes will be pulled everytime. It also can cause unnecessary bandwidth and storage wastage.
+
+
+Q3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Ans) Fork is used for cloning one github repo into our own github profile as a new repo, clone on the other hand is creating an identical copy of a repo into our own machine, whereas a branch is a clone which also acts as a separate entity and the changes made in the branch are not reflected in the original repo. For copying someone else's work/repo into our github we can use fork. To get our online repo into our local machine we can use clone. We create a new branch only if we don't want the new changes to affect our old repo.
+
+
+Q4) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Ans) In case there is any change in the repo while we are working on a clone offline, we would be notified while trying to update the repo and thus warning us of any existing conflicts. This saves any updates being made by collaborators from being overwritten or getting garbled together.
+
+
+Q5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Ans) Via email and manual checking of code. Making sure we update each other about various changes. Only thing easier would be the fact that we won't need to remember all these terms and commands. Otherwise handling a big project with many collaborators will become a nightmare.
+
+
+Q6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Ans) In case we need to make some experimental changes and don't want it to affect the master branch. Since many collaborators might be working on the master branch, making some experimental changes on that is not advisable. Creating a separate branch makes it easier for us to explore new changes without affecting other developers workflow but it does come with additional complexities at the time of merging in our changes.
