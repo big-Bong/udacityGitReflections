@@ -16,3 +16,20 @@ Ans) The staging area acts like a buffer between working directory and git repo.
 Q4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Ans) Basically making some changes which we are not sure of whether to implement or not and its effects. Creating a different branch keeps our main branch (code/environment) unaffected and gives us freedom to experiment howsoever we like.
+
+
+Q5) How do the diagrams help you visualize the branch structure?
+
+Ans) Multiple branches, heads, different commits etc become hard to visualize once they keep increasing. A diagram makes it very clear and concise as from where a new branch is starting, how many branches are present etc.
+
+
+Q6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Ans) Merging two branches merges all the changes in the two branches together such that in the end, the final files contains changes from both the branches and is in a stable state. It basically merges whichever branch we specify into the master branch. That seems the most intuitive way of representing a merge, showing that two different branches become one after the merge and now have a common head.
+
+
+Q7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Ans) Pros: Automatic merging saves a lot of time and effort on a users part. Going manually through thousands of lines of code to compare changes between two files is a herculean task.
+
+Cons: Automatic merge can't take a decision in case of changes being made to identical items in the files. We need manual intervention in such a case.
